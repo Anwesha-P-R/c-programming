@@ -4,15 +4,15 @@ int main() {
     int basic;
     float hra, da, pf, gross, net;
     printf("Enter basic salary of employee: ");
-    scanf("%f", &basic);
-    hra = 0.20 * basic;
-    da  = 0.40 * basic;
-    pf  = 0.12 * basic;
+    scanf("%d", &basic);
+    hra = 0.20*basic;
+    da  = 0.40*basic;
+    pf  = 0.12*basic;
 
-    gross = basic + hra + da;
-    net   = gross - pf;
+    gross = basic+hra+da;
+    net   = gross-pf;
 
-    printf("\nBasic Salary: %.2f", basic);
+    printf("\nBasic Salary: %d",basic);
     printf("\nHRA: %.2f", hra);
     printf("\nDA: %.2f", da);
     printf("\nPF: %.2f", pf);

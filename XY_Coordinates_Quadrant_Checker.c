@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &x);
     printf("Enter Y coordinate: ");
     scanf("%d", &y);
-    cif (x > 0 && y > 0)
+    if (x > 0 && y > 0)
         printf("Point (%d, %d) lies in Quadrant I\n", x, y);
     else if (x < 0 && y > 0)
         printf("Point (%d, %d) lies in Quadrant II\n", x, y);
